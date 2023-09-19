@@ -1,0 +1,30 @@
+@import 'reset.scss';
+
+body {
+	background: beige;
+
+	section {
+		width: 600px;
+		padding: 50px;
+		background: white;
+		margin: 100px auto;
+		text-align: center;
+
+		h1 {
+			font: bold 50px/1 'arial';
+			color: beige;
+			margin-bottom: 40px;
+		}
+		p {
+			margin-bottom: 30px;
+		}
+		a {
+			display: inline-block;
+			border: 1px solid burlywood;
+			padding: 8px 30px;
+			font: bold 16px/1 'arial';
+			background: burlywood;
+			color: #fff;
+		}
+	}
+}
