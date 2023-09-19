@@ -1,29 +1,30 @@
 @import 'reset.scss';
+@import 'variable';
 
 body {
 	background: beige;
 
 	section {
 		width: 600px;
-		padding: 50px;
+		padding: 3rem;
 		background: white;
-		margin: 100px auto;
+		margin: 6rem auto;
 		text-align: center;
 
 		h1 {
-			font: bold 50px/1 'arial';
-			color: beige;
-			margin-bottom: 40px;
+			font: bold 4rem/1 'arial';
+			color: var(--color3);
+			margin-bottom: 3rem;
 		}
 		p {
-			margin-bottom: 30px;
+			margin-bottom: 2rem;
 		}
 		a {
 			display: inline-block;
 			border: 1px solid burlywood;
-			padding: 8px 30px;
-			font: bold 16px/1 'arial';
-			background: burlywood;
+			padding: 0.5rem 2rem;
+			font: bold 1rem/1 'arial';
+			background: var(--color3);
 			color: #fff;
 		}
 	}
@@ -31,16 +32,16 @@ body {
 
 @media screen and (max-width: 990px) {
 	body {
-		background: rgb(254, 254, 58);
+		background: var(--color1);
 
 		section {
-			background: rgb(43, 255, 0);
+			background: var(--color2);
 			width: 80%;
 			h1 {
-				color: rgb(0, 0, 0);
+				color: var(--color3);
 			}
 			a {
-				background: rgb(0, 0, 0);
+				background: var(--color1);
 			}
 		}
 	}
@@ -48,16 +49,16 @@ body {
 
 @media screen and (max-width: 599px) {
 	body {
-		background: rgb(220, 113, 0);
+		background: var(--color3);
 
 		section {
-			background: rgb(22, 172, 42);
+			background: var(--color2);
 
 			h1 {
 				color: rgb(0, 0, 0);
 			}
 			a {
-				background: rgb(0, 0, 0);
+				background: var(--color3);
 			}
 		}
 	}
