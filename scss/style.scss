@@ -28,3 +28,37 @@ body {
 		}
 	}
 }
+
+@media screen and (max-width: 990px) {
+	body {
+		background: rgb(254, 254, 58);
+
+		section {
+			background: rgb(43, 255, 0);
+			width: 80%;
+			h1 {
+				color: rgb(0, 0, 0);
+			}
+			a {
+				background: rgb(0, 0, 0);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 599px) {
+	body {
+		background: rgb(220, 113, 0);
+
+		section {
+			background: rgb(22, 172, 42);
+
+			h1 {
+				color: rgb(0, 0, 0);
+			}
+			a {
+				background: rgb(0, 0, 0);
+			}
+		}
+	}
+}

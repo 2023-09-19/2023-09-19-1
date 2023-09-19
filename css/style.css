@@ -41,4 +41,34 @@ body section a {
   color: #fff;
 }
 
+@media screen and (max-width: 990px) {
+  body {
+    background: rgb(254, 254, 58);
+  }
+  body section {
+    background: rgb(43, 255, 0);
+    width: 80%;
+  }
+  body section h1 {
+    color: rgb(0, 0, 0);
+  }
+  body section a {
+    background: rgb(0, 0, 0);
+  }
+}
+@media screen and (max-width: 599px) {
+  body {
+    background: rgb(220, 113, 0);
+  }
+  body section {
+    background: rgb(22, 172, 42);
+  }
+  body section h1 {
+    color: rgb(0, 0, 0);
+  }
+  body section a {
+    background: rgb(0, 0, 0);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
